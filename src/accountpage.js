@@ -28,7 +28,7 @@ const signupForm = document.getElementById('signup-form');
       localStorage.setItem('isLoggedIn', 'true');
       localStorage.setItem('currentUser', username);
       alert('Login successful!');
-      window.location.href = '../index.html';
+      window.location.href = 'index.html';
     } else {
       alert('Invalid login credentials.');
     }
