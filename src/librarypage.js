@@ -1,6 +1,6 @@
 // Redirect to login if not logged in
 if (localStorage.getItem('isLoggedIn') !== 'true') {
-    window.location.href = '../accountpage.html';
+    window.location.href = 'accountpage.html';
   }
   
 let recorder, chunks = [];
