@@ -36,5 +36,5 @@ const signupForm = document.getElementById('signup-form');
 
 function logout() {
     localStorage.removeItem('isLoggedIn');
-    window.location.href = './accountpage.html';
+    window.location.href = '../accountpage.html';
 }
