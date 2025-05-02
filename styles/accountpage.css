@@ -1,0 +1,10 @@
+#logout-button {
+    margin: 50px;
+}
+
+#signup-form, #login-form, #logout-button {
+    margin: 25px;
+    padding: 10px;
+    background-color: #334B5B;
+    border-radius: 10px;
+}

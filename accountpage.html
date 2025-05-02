@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+
+
+
+<html lang="en">
+
+
+
+    <head>
+
+
+        <meta charset="UTF-8">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>SoundLab, Home</title>
+
+        <link rel="stylesheet" href="./styles/index.css">
+
+        <link rel="stylesheet" href="./styles/accountpage.css">
+
+
+    </head>
+
+    <body>
+
+
+        <header class="header">
+
+
+            <div class="logo-and-website-name">
+
+
+                <img src="./assets/images/SL logo no background.png" alt="Logo" class="logo">
+
+                <h1 class="website-name">SoundLab.com</h1>
+
+
+            </div>
+
+            <nav class="navigation-bar">
+
+
+                <a href="./homepage.html">Home</a>
+
+                <a href="./librarypage.html">Library</a>
+
+                <a href="./accountpage.html">Account</a>
+
+
+            </nav>
+
+
+        </header>
+
+        <div id="account-page-body">
+
+
+            <h3>Sign Up</h3>
+
+            <form id="signup-form">
+
+
+                <input type="text" id="signup-username" placeholder="Username" required>
+
+                <input type="password" id="signup-password" placeholder="Password" required>
+
+                <button type="submit">Sign Up</button>
+
+
+            </form>
+
+            <h3>Log In</h3>
+
+            <form id="login-form">
+
+
+                <input type="text" id="login-username" placeholder="Username" required>
+
+                <input type="password" id="login-password" placeholder="Password" required>
+
+                <button type="submit">Log In</button>
+
+                <h3>Remember to Log Out after finishing your session.</h3>
+
+                
+            </form>
+
+            <button onclick="logout()" id="logout-button">Logout</button>
+
+
+        </div>
+
+        <footer class="footer">
+
+
+            <h4>&copy; SoundLab 2025</h4>
+
+
+        </footer>
+
+        <script src="./src/accountpage.js"></script>
+
+
+    </body>
+
+
+
+</html>

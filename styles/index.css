@@ -1,0 +1,206 @@
+body {
+    background-image: url(../assets/images/Sound\ Lab.png);
+    margin: 0px;
+    display: grid;
+}
+
+.header {
+    background-color: #FCF2ED;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+    margin-top: 0px;
+    display: block;
+    position: fixed;
+    width: 100vw;
+    opacity: 0.95;
+}
+
+.body {
+    margin: 7px;
+    padding-top: 200px;
+}
+
+.logo-and-website-name {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    height: 150px;
+    width: 150px;
+    border-top-left-radius: 10px;
+    background-color: #FCF2ED;
+    padding: 2px;
+}
+
+.website-name {
+    color: #2B1207;
+    padding: 20px;
+}
+
+.navigation-bar {
+    background-color: #334B5B;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 2vw;
+}
+
+.navigation-bar a {
+    text-decoration: none;
+    color: #FCF2ED;
+}
+
+.navigation-bar a:hover {
+    color: #a5e5e2;
+}
+
+.body {
+    text-align: center;
+    color: #2B1207;
+}
+
+#home-intro, #about-section, #contact-section {
+    background-color: #20B2AA;
+    opacity: 1;
+    color: #2B1207;
+}
+
+#home-intro {
+    padding: 5px;
+    width: fit-content;
+    justify-self: center;
+    border-radius: 10px;
+    margin: 10px;
+    background-color: #20B2AA;
+    background-color: #334B5B;
+    color: #FCF2ED;
+}
+
+#listen-message {
+    color: #FCF2ED;
+    text-shadow: 5px 3px 1px #2B1207;
+}
+
+#app-menu {
+    background-color: #2B1207;
+    opacity: 1;
+    margin-left: 100px;
+    margin-right: 100px;
+    color: #FCF2ED;
+}
+
+#info-section {
+    color: white;
+    text-shadow: 5px 3px 1px #2B1207;
+}
+
+#about-section {
+    border-radius: 10px;
+    background-color: #20B2AA;
+    background-color: #334B5B;
+    padding: 5px;
+    margin-top: 10px;
+    text-shadow: none;
+}
+
+#contributers-section {
+    background-color: #334B5B;
+    opacity: 1;
+    display: flex;
+    justify-content: space-around;
+    width: fit-content;
+    justify-self: center;
+    border-radius: 10px;
+    text-shadow: none;
+}
+
+.contributers {
+    width: fit-content;
+    height: fit-content;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 5px;
+    color: #FCF2ED;
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+}
+
+#developer, #assistant-developer, #sponsor  {
+    background-color:#2B1207;
+}
+
+.containers {
+    padding: 5px;
+}
+
+.contributer-images {
+    border-radius: 10px;
+    width: 150px;
+    height: 225px;
+}
+
+#contributer-one {
+    position: relative;
+}
+
+.bottom-left {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    color: #2B1207;
+}
+
+.bottom-left:hover {
+    color: black;
+    border-radius: 5px;
+    background-color: #FCF2ED;
+}
+
+#contact-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 25%;
+    margin-right: 25%;
+    border-radius: 10px;
+    background-color: #334B5B;
+}
+
+.envelope-icon, .telephone-icon {
+    height: 80px;
+    width: 80px;
+}
+
+#library-page-body {
+    background-color: #2B1207;
+    color: #FCF2ED;
+    margin: 200px; 
+    text-align: center;
+    border-radius: 10px;
+    padding: 100px;
+}
+
+#account-page-body {
+    background-color: #2B1207;
+    color: #FCF2ED;
+    margin: 5px;
+    padding: 500px;
+    margin: 200px;
+    border-radius: 10px;
+    padding: 100px;
+}
+
+.footer {
+    background-color: #FCF2ED;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    text-align: center;
+    color: #2B1207;
+    padding: 20px;
+    margin-top: 20px;
+    opacity: 0.8;
+}
+  

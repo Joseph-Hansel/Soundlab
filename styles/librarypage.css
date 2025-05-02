@@ -1,0 +1,49 @@
+#search-bar {
+    background-color: #FCF2ED;
+    color: #2B1207;
+    color: darkgray;
+    border-radius: 8px;
+    padding: 5px;
+    margin: 5px 50px 50px 50px;
+}
+
+#search-icon {
+    width: 20px;
+    height: 20px;
+}
+
+#library-intro {
+    background-color: #334B5B;
+    padding: 10px;
+    margin-bottom: 50px;
+    border-radius: 10px;
+}
+
+#library-actions {
+    display: flex;
+    justify-content: space-between;
+    background-color: #334B5B;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#library-actions button:hover {
+    background-color: #2B1207;
+    color: #FCF2ED;
+}
+
+.audio-wrapper {
+    background-color: #334B5B;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.audio-buttons {
+    border-radius: 5px;
+    background-color: #2B1207;
+    color: #FCF2ED;
+}

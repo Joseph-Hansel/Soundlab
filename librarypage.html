@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+
+
+
+<html lang="en">
+
+
+
+    <head>
+
+
+        <meta charset="UTF-8">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>SoundLab, Library</title>
+
+        <link rel="stylesheet" href="./styles/index.css">
+
+        <link rel="stylesheet" href="./styles/librarypage.css">
+
+
+    </head>
+
+    <body>
+
+
+        <header class="header">
+
+
+            <div class="logo-and-website-name">
+
+
+                <img src="./assets/images/SL logo no background.png" alt="Logo" class="logo">
+
+                <h1 class="website-name">SoundLab.com</h1>
+
+
+            </div>
+
+            <nav class="navigation-bar">
+
+
+                <a href="./homepage.html">Home</a>
+
+                <a href="./librarypage.html">Library</a>
+
+                <a href="./accountpage.html">Account</a>
+
+
+            </nav>
+
+
+        </header>
+
+        <div id="library-page-body">
+
+
+            <input type="text" id="search-bar" placeholder="Search your audio files...">
+
+            <div id="library-intro">
+
+
+                <h2 id="greeting"></h2>
+
+                <h3>Welcome to your library.</h3>
+
+
+            </div>
+
+
+            <div id="library-actions">
+
+                <input type="file" id="upload-audio" accept="audio/*" title="upload from files">
+
+                <button id="start-record">Start Recording</button>
+
+                <button id="stop-record">Stop Recording</button>
+
+
+            </div>
+
+            <h3>If you are finding trouble recording audio, try refreshing the page, then allow the page to use the device's microphone.</h3>
+
+            <div id="audio-library"></div>
+
+
+        </div>
+
+        <footer class="footer">
+
+
+            <h4>&copy; SoundLab 2025</h4>
+
+
+        </footer>
+
+        <script src="./src/librarypage.js"></script>
+
+
+    </body>
+
+
+
+</html>
